@@ -1,37 +1,52 @@
-## Welcome to GitHub Pages
+# Installation Guide
 
-You can use the [editor on GitHub](https://github.com/M-Thirumal/installation_guide/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### Build PgModeler from source code
+1. [Guide for Ubuntu](pgmodeler/build_pgmodeler_from_source_ubuntu.md)
+2. [Guide for Mac](pgmodeler/build_pgmodeler_from_source_mac.md)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Install PostgreSQL
+1. [Install and Configure PostgreSQL](PostgreSQL/Install_PostgresQL_in_Ubuntu.md)
 
-### Markdown
+### Install PgAdmin4
+1. [PgAdmin using Apache2](pgadmin4/install_pgadmin4_using_apache2.md)
+2. [PgAdmin4 using Docker](pgadmin4/install_pgadmin4_using_docker.md)
+3. [Update PgAdmin4 docker image](pgadmin4/update_pgadmin4_docker_image.md)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### FortiClient VPN
+1. [Install Forticlient VPN on Ubuntu 20.04](Forticlient/Install_FortiClient_Ubuntu.md)
 
-```markdown
-Syntax highlighted code block
+### Install Redis from source
+1. [Guide for Ubuntu](redis/install_redis_in_ubuntu_from_source.md)
+2. [Guide for Mac OS](redis/install_redis_in_mac_from_source.md)
+3. [Enable remote access](redis/redis_enable_remote_access.md)
 
-# Header 1
-## Header 2
-### Header 3
+### AWS - Website hosting
+1. [Host static website using S3](aws/host_static_website_using_s3.md)
+2. [Add TLS for AWS S3 hosted static website using Let's Encrypt](aws/tls/create_cloud_front.md)
 
-- Bulleted
-- List
+### TLS
+1. [Generate Free TLS/SSL using Let's Encrypt](TLS/let's_encrypt.md)
 
-1. Numbered
-2. List
+### Nginx
+1. [Install & Virtual host Niginx](Nginx/installation_in_Ubuntu.md)
+2. [Reverse Proxy using symblink](Nginx/reverse_proxy_with_symblink.md)
+3. [Add TLS For Nginx Hosted Site](Nginx/Add_TLS_For_Nginx_Hosted_Site.md)
 
-**Bold** and _Italic_ and `Code` text
+### Git
+1. [SSH Clone](git/ssh_git_clone.md)
 
-[Link](url) and ![Image](src)
-```
+### PgModeler Output
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+![Mac OUTPUT](pgmodeler/mac-pgmodeler.png)
+![Ubuntu OUTPUT](pgmodeler/Ubuntu.png)
 
-### Jekyll Themes
+### PgAdmin4 Output
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/M-Thirumal/installation_guide/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+![PgAdmin4](pgadmin4/Pgadmin4.png)
 
-### Support or Contact
+### Nginx output
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+![Ngnix](Nginx/Default.png)
+
+### Forticlient 
+![Forticlient](Forticlient/Forticlient.png)
