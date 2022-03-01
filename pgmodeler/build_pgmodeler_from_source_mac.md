@@ -21,8 +21,8 @@ And change the installation path in 'pgmodeler.pri', something similar to the fo
 macx {
   PGSQL_LIB = /Applications/Postgres.app/Contents/Versions/13/lib/libpq.dylib
   PGSQL_INC = /Applications/Postgres.app/Contents/Versions/13/include
-  XML_INC = /usr/local/Cellar/libxml2/2.9.10_2/include/libxml2
-  XML_LIB = /usr/local/Cellar/libxml2/2.9.10_2/lib/libxml2.dylib
+  XML_INC = /usr/local/Cellar/libxml2/2.9.12/include/libxml2
+  XML_LIB = /usr/local/Cellar/libxml2/2.9.12/lib/libxml2.dylib
   INCLUDEPATH += $$PGSQL_INC $$XML_INC
 }
 ```
